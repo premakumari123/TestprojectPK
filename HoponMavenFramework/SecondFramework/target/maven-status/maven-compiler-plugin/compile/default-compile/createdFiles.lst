@@ -1,0 +1,6 @@
+Generic\BaseTest.class
+Generic\IAutocontant.class
+Scripts\InvalidLogin.class
+Scripts\ValidLogin.class
+Generic\Lib.class
+Pompages\Loginpage.class

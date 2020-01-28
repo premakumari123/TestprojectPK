@@ -13,12 +13,13 @@ public class Astiinfotech {
 		System.setProperty("webdriver.chrome.driver",".\\driver\\chromedriver.exe");
 		
 		WebDriver driver= new ChromeDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().maximize();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 		driver.get("https://www.google.com");
 		Thread.sleep(500);
 		driver.get("https://developer.here.com/documentation");
 		String title = driver.getTitle();
 	    System.out.println("the title of the page is:= "+title);
+	    
 
         //All links stored in Arraylist
 	    ArrayList<String> alist = new ArrayList<String>();
